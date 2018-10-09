@@ -1,0 +1,593 @@
+body{
+	font: 16px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+}
+/*background картинка*/
+section#picture{
+			background:url('../img/connor.jpg');
+			background-size: 100% 100%;
+			color:#ffffff;
+			background-attachment:fixed;
+			text-align:justify;
+		}
+
+.container{
+	width:98%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/*Настройки за header меню*/
+header{
+	background:#ffffff;
+	color:#000000;
+	padding-top:20px;
+	min-height:220px;
+}
+header a{
+	text-decoration:none;
+	font-size:23px;
+}
+
+header #branding{
+	float:left;
+	margin-top:25px;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:26px;
+}
+ ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ul li {
+	float: left;
+	padding: 0 10px 0 10px;
+	text-shadow: 5px 5px 15px #9900cc;
+}
+ul li ul li{
+	display:none;
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+
+/*Настройки за меню Св Филми Музика*/
+nav#owner_ht{
+	width:20%;
+}
+/*Настройки за меню Партньори Развитие*/
+nav#company{
+	width:22%;
+}
+/*Търсачка*/
+#search{
+  padding:0px;
+  color:#ffffff;
+  background:#000000;
+}
+#search h1{
+  float:left;
+  
+}
+#search form {
+  float:right;
+  margin-top:25px;
+}
+#search input{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+.button_1{
+  height:25px;
+  background:#ffffff;
+  border:1;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#000000;
+}
+
+/*Новини*/
+p#home{
+	text-align:justify;
+}
+
+/*За фирмата*/
+aside#sidebar{
+	width:100%;
+	padding:10px;
+	margin-left:30px;
+	text-align:justify;
+}
+div#main{
+	margin-right:50px;
+	float:left;
+	width:70%;
+	text-align:justify;
+}
+div#kare{
+float:right;
+width:400px;
+margin:15px 10px 15px 20px;
+margin-bottom: 0px;
+padding:15px;
+border-radius:10px;
+text-align:center;
+background-color:#000000;
+color:#ffffff;
+}
+#kare img{
+	display: block;
+	transition-duration:3s;
+	margin:20px
+}
+#kare img:hover{
+	transform: rotateX(360deg);
+}
+
+/*Мнения*/
+div #opinions{
+	color:white;
+	margin:20px;
+	padding:20px;
+	width:180px;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:black;
+}
+
+/*Поръчки*/
+div #orders{
+	color:white;
+	margin:20px;
+	padding:20px;
+	width:650px;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:black;
+}
+
+/*Голяма буква*/
+span
+{
+float:left;
+width:0.7em;
+font-size:400%;
+font-family:algerian,courier;
+line-height:70%;
+}
+
+/*Conar ховър ефект*/
+#conor{
+	position:relative;
+	height:800px;
+	width:500px;
+	float:left;
+	margin:0px 25px 20px 0px;
+	
+}
+#conor img {
+	position:absolute;
+	height:800px;
+	width:500px;
+	border:2px solid white;
+	border-radius:10px;
+	transition-duration:1s;
+	margin-top:15px
+}
+#conor img.top:hover{
+	opacity:0;
+}
+
+/*Слайд шоу*/
+#chemp_words{
+	color:white;
+	border:1px solid black;
+	margin-left:40%;
+}
+#champs{
+	height:600px;
+	border:1px solid black;
+	margin: 0 auto;
+	margin-top:15px;
+	margin-bottom:10px;
+	position:relative;
+	background-color:black;
+}
+#champs img{
+	margin: 0 auto;
+	width:1000px;
+	height:500px;
+	position:absolute;
+	margin-left:20%;
+}
+#champs .btn{
+	position:absolute;
+	width:50px;
+	height:50px;
+	border:none;
+	border-radius:25px;
+	top:200px;
+	background-color:white;
+	color:black;
+	font-size:20px;
+	
+}
+#champs #btn2{
+	position: relative;
+	float:right;
+}
+#champs #btn1{
+	margin-top:80px;
+}
+
+	
+/*Долната част*/
+footer{
+	padding:6px;
+	margin-top:6px;
+	color:#ffffff;
+	background-color:#000000;
+	text-align: right;
+}
+footer li{
+	float:left;
+	color:#ffffff;
+	font-size:13px;
+	display:inline;
+	padding: 0 10px 0 10px;
+}
+
+/*видео*/
+div#video{
+	float:none;
+    text-align:left;
+	padding-top:15px;
+	width:90%;
+	margin:0px auto;
+}
+
+/*аудио*/
+div#music{
+	margin:0px auto;
+}
+
+/*Ховър ефект*/
+li:hover{
+	font-weight:bold;
+}
+p:hover{
+	font-weight:bold;
+}
+h1{
+	transition: width 1s, height 1s, transform 1s;
+}
+h1:hover{
+	transform:rotate(2deg);
+	color:#9900cc;
+}
+h2{
+	text-shadow: 4px 5px 8px #ffffff;
+}
+h2:hover{
+	color:#9900cc;
+}
+
+/*Посетена хипервръзка*/
+a:visited {color:white;}
+a:active {color:#9900cc;}
+a:link {color:#6600ff;}
+a:link {text-decoration:none;}
+
+/*ID за таблицата в items*/
+table#table_shop{
+	border: 5px solid;
+	border-radius: 25px;
+	border-color:#9900cc;
+	border-radius: 25px;
+	box-shadow: 8px 8px 15px #9900cc;
+}
+td#table_shop{
+	border: 3px solid;
+	border-color:#9900cc;
+	color:#9900cc;
+	border-radius: 25px;
+	text-align:center;
+}
+th#table_shop{
+	border: 3px solid;
+	border-color:#9900cc;
+	color:#9900cc;
+	border-radius: 25px;
+}
+th#table_shop{
+	background-color:#9900cc;
+	border-color:#9900cc;
+	color:white;
+	border-radius: 25px;
+}
+
+/*Св линия*/
+th#right_line{
+	border-right-style:solid;
+	border-right-width:5px;
+	padding:20px;
+	margin:20px;
+}
+td#right_line{
+	border-right-style:solid;
+	border-right-width:5px;
+	padding:20px;
+	margin:20px;
+}
+th#right_line2{
+	padding:20px;
+	margin:20px;
+}
+td#right_line2{
+	padding:20px;
+	margin:20px;
+}
+
+/*Клас за шапки*/
+.hats{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.hats img{
+	display: block;
+	transition-duration:3s;
+
+}
+
+.hats:hover img{
+	opacity:.6;
+}
+
+.hats img:hover{
+	opacity:1;
+	transform: rotateY(180deg);
+}
+
+/*Клас за рашгард*/
+.shirt{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.shirt img{
+	display: block;
+	transition-duration:3s;
+}
+
+.shirt:hover img{
+	opacity:.6;
+}
+
+.shirt img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за къс ръкав*/
+.tshirt{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.tshirt img{
+	display: block;
+	transition-duration:3s;
+}
+
+.tshirt:hover img{
+	opacity:.6;
+}
+
+.tshirt img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за дълъг клин*/
+.wedge_long{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.wedge_long img{
+	display: block;
+	transition-duration:3s;
+}
+
+.wedge_long:hover img{
+	opacity:.6;
+}
+
+.wedge_long img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за къс клин*/
+.wedge_short{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.wedge_short img{
+	display: block;
+	transition-duration:3s;
+}
+
+.wedge_short:hover img{
+	opacity:.6;
+}
+
+.wedge_short img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за къси панталони*/
+.shorts{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.shorts img{
+	display: block;
+	transition-duration:3s;
+}
+
+.shorts:hover img{
+	opacity:.6;
+}
+
+.shorts img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за яке*/
+.jacket{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.jacket img{
+	display: block;
+	transition-duration:3s;
+}
+
+.jacket:hover img{
+	opacity:.6;
+}
+
+.jacket img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за чехли*/
+.shoes{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.shoes img{
+	display: block;
+	transition-duration:3s;
+}
+
+.shoes:hover img{
+	opacity:.6;
+}
+
+.shoes img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за Ръкавици*/
+.gloves{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.gloves img{
+	display: block;
+	transition-duration:3s;
+}
+
+.gloves:hover img{
+	opacity:.6;
+}
+
+.gloves img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за протектори*/
+.protectors{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.protectors img{
+	display: block;
+	transition-duration:3s;
+}
+
+.protectors:hover img{
+	opacity:.6;
+}
+
+.protectors img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за каска*/
+.helmet{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.helmet img{
+	display: block;
+	transition-duration:3s;
+}
+
+.helmet:hover img{
+	opacity:.6;
+}
+
+.helmet img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
+/*Клас за гума*/
+.rubber{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.rubber img{
+	display: block;
+	transition-duration:3s;
+}
+
+.rubber:hover img{
+	opacity:.6;
+}
+
+.rubber img:hover{
+	opacity:1;
+	transform: rotateY(360deg);
+}
+
